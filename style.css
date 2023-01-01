@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: #15193d;
+}
+
+
+.navigation-bar{
+    position: absolute;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.logo{
+    width: 25%;
+    margin: 0% 10%;
+}
+
+.contact-button{
+    margin-right: 5%;
+    background: #ffffff;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    width: 12%;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5% 0%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 75%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-button:hover{
+    box-shadow: 0px 8px 13px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+
+.header-content{
+/*    height: 100vh;*/
+    margin: 0%;
+}
+
+.header-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding: 0% 5%;
+    background: linear-gradient(to right, #ffffff, rgba(0,0,0,0.02));
+}
+
+.header-text-container .mineral-water{
+    display: block;
+    font-size: 4.2vw;
+    line-height: 0.5;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.header-text-container .company-name{
+    display: block;
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.header-button-container{
+    margin-top: 7%;
+}
+
+.header-button-container .about-button, .header-button-container .contactus-button{
+    padding: 2% 7%;
+    background: none;
+    border: 2px solid rgba(0,0,0,0.2);
+    margin: 0% 2% 0% 0%;
+    font-weight: 700;
+    font-size: 75%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.header-button-container .about-button:hover{
+    border: 2px solid rgba(0,50,255,0.8);
+    transition: all 0.5s;
+}
+
+.header-button-container .contactus-button{
+    margin: 0%;
+    border: 2px solid rgba(0,50,255,0.8);
+    background: rgba(0,50,255,0.8);
+    color: white;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+
+.header-button-container .contactus-button:hover{
+    box-shadow: 0px 8px 12px rgba(0,0,0,0.3);
+    transition: all 0.5s ease-in-out;
+}
+
+.header-bottle-container{
+    background: linear-gradient(to bottom, #0058db, #00b3db);
+    display: flex;
+    align-items: center;
+    padding: 5% 0%;
+}
+
+.header-bottle-image{
+    width: 30%;
+    transform: translateX(-20%) rotate(-24deg);
+    filter: drop-shadow(5px 15px 20px rgba(0,0,0,0.2));
+}
+
+.our-product{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 6% 0%;
+    text-align: center;
+}
+
+.our-product .our-product-text-box{
+    margin: 0% 1%;
+    box-shadow:  0px 0px 20px rgba(0,0,0,0.05);
+    padding: 1.8% 1.5%;
+    border-radius: 10px;
+}
+
+.our-product .our-product-text-box:hover{
+    box-shadow:  0px 0px 25px rgba(0,0,0,0.1);
+    transform: translateY(-5%);
+    transition: all 0.4s ease-in-out;
+}
+
+.our-product .title-text{
+    text-align: center;
+    font-size: 280%;
+    font-weight: 700;
+    margin-bottom: 4%;
+    
+}
+
+.our-product .sub-title{
+    font-weight: 900;
+    font-size: 120%;
+    margin-bottom: 6%;
+}
+
+.our-product .product-description{
+    font-size: 95%;
+}
+
+.product-image-box{
+    background: linear-gradient(to right, #10e075 90%, #ffffff 10%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2.5% 0%;
+}
+
+.product-mineral-water{
+    background: linear-gradient(to right, #10e075 90%, #ffffff 10%);
+}
+
+.product-laung-water{
+    background: linear-gradient(to left, #ba8743 90%, #ffffff 10%);
+    justify-content: flex-start;
+}
+
+.product-tulsi-water{
+    background: linear-gradient(to right, #0080ff 90%, #ffffff 10%);
+}
+
+.product-image-box .product-image{
+    width: 50%;
+    border: 15px solid white;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}
+
+.product-description-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    padding: 0% 6%;*/
+}
+
+.product-description-box .product-label{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.product-description-box .product-title{
+    font-size: 230%;
+    font-weight: 700;;
+}
+
+.product-button-box{
+    margin: 9% 0%;
+}
+
+.product-description-box .product-buy-now-button, .product-description-box .product-learn-more-button{
+    text-decoration: none;
+    padding: 3% 11%;
+    font-size: 75%;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    border: 2.5px solid rgba(0,0,0,0.2);
+/*    margin-right: 3%;*/
+}
+
+.product-description-box .product-buy-now-button:hover{
+    border: 2.5px solid black;
+}
+
+.product-description-box .product-learn-more-button{
+    border: none;
+}
+
+.product-learn-more{
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
+.product-learn-more:hover{
+    border-bottom-color: black;
+}
+
+.subscribe-now-box{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0%;
+    background: linear-gradient(to right, rgba(0,0,0,0.04), rgba(0,0,0,0.01));
+}
+
+.subscribe-now-box .subscribe-now-title{
+    font-size: 230%;
+    font-weight: 800;
+    margin-bottom: 10%;
+}
+
+.subscribe-now-box .subscribe-now-input-box{
+    border: 2px solid rgba(0,0,0,0.1);
+    display: flex;
+}
+
+.subscribe-now-box .subscribe-now-input{
+    width: 23rem;
+    padding: 3.5% 5%;
+    font-size: 80%;
+    border: none;
+    font-weight: 500;
+}
+
+.subscribe-now-input:focus{
+    outline: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3% 0%;
+/*    background: rgba(0,0,0,0.01);*/
+}
+
+.footer .footer-logo{
+    width: 5rem;
+    margin-bottom: 3%;
+}
+
+.footer-icon-box{
+    margin: 2% 0%;
+}
+
+.footer-icon{
+    font-size: 1.2rem;
+    margin: 0% 1%;
+}
+
+.footer-copyright{
+    margin-top: 3%;
+    font-size: 80%
+}
+
+.gallery{
+    width: 100%;
+    display: grid;
+}
+
+.gallery div{
+/*    width: 250px;*/
+/*    padding: 25px;*/
+/*    border: 2px solid black;*/
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.item1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.item2{
+    grid-row: 2;
+    grid-column: 1;
+}
+.item3{
+    grid-row: 1/3;
+    grid-column: 2/4;
+}
+.item4{
+    grid-row: 1;
+    grid-column: 4;
+}
+.item5{
+    grid-row: 2;
+    grid-column: 4;
+}
+.item6{
+    grid-row: 1/3;
+    grid-column: 5/7;
+}

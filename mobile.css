@@ -1,0 +1,103 @@
+@media only screen and (max-width: 450px){
+    .navigation-bar{
+        position: relative;
+        padding: 0%;
+        background: none;
+    }
+    
+    .logo{
+        width: 20%;
+        margin: 0%;
+    }
+    
+    .contact-button{
+        padding: 2% 5%;
+    }
+    
+    .header-text-container{
+        padding: 12% 6%;
+    }
+    
+    .header-text-container .mineral-water{
+        font-size: 8vw;
+    }
+    
+    .header-text-container .company-name{
+        font-size: 10vw;
+    }
+    
+    .header-text-container .header-text{
+        font-size: 75%;
+    }
+    
+    .header-bottle-container{
+        padding: 18%;
+    }
+    
+    .header-bottle-image{
+        position: absolute;
+        width: 20%;
+        transform: translate(90%, -15%) rotate(-60deg);   
+    }
+    
+    .our-product{
+        padding: 8% 7%;
+        font-size: 90%;
+    }
+    
+    .our-product .our-product-text-box{
+        margin: 6% 0%;
+        padding: 6%;
+    }
+
+    .our-product .title-text{
+        font-size: 200%;
+    }
+    
+    .subscribe-now-box .subscribe-now-input{
+        width: 15rem;
+    }
+    
+    .product-image-box{
+        justify-content: center;
+    }
+    
+    .product-image-box .product-image{
+        border: 10px solid white;
+    }
+    
+    .product-mineral-water{
+        background: #10e075;
+    }
+
+    .product-laung-water{
+        background: #ba8743;
+    }
+
+    .product-tulsi-water{
+        background: #0080ff;
+    }
+    
+    .product-description-box{
+        padding-top: 8%;
+        font-size: 85%;
+    }
+    
+    .product-description-box .product-title{
+        font-size: 200%;
+    }
+    
+    .subscribe-now-box{
+        padding: 10% 5%;
+    }
+    
+    .subscribe-now-box .subscribe-now-title{
+        font-size: 180%;
+        margin-bottom: 5%;
+    }
+    
+    .footer-copyright{
+        padding: 2% 15%;
+    }
+    
+}
