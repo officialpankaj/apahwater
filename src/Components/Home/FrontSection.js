@@ -8,7 +8,7 @@ class FrontSection extends Component {
     return (
       <div className="row front-section">
         <div className="col-md-6 slider-box position-relative">
-          {/* <HeaderCarousel /> */}
+          <HeaderCarousel />
         </div>
         <div className="col-md-6 content-box">
           <p className="title">We are Apah water, Mineral water Bottle</p>
