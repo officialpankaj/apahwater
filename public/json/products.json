@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Mountain Mint Mixer",
+    "flavour": "Mint Flavour",
+    "price": 60,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 10,
+    "extra_discount_on_min": 200,
+    "image": "our-product-item-06.webp",
+    "thumbnail": "our-product-item-thumbnail-06.webp",
+    "available_size": [
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Cave Honey",
+    "flavour": "Honey Flavour",
+    "price": 75,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 10,
+    "extra_discount_on_min": 100,
+    "image": "our-product-item-05.webp",
+    "thumbnail": "our-product-item-thumbnail-05.webp",
+    "available_size": [
+      "300ML",
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Holey Water",
+    "flavour": "Tulsi Flavour",
+    "price": 45,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 15,
+    "extra_discount_on_min": 250,
+    "image": "our-product-item-01.webp",
+    "thumbnail": "our-product-item-thumbnail-01.webp",
+    "available_size": [
+      "300ML",
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Alround Amla",
+    "flavour": "Amla Flavour",
+    "price": 55,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 8,
+    "extra_discount_on_min": 50,
+    "image": "our-product-item-04.webp",
+    "thumbnail": "our-product-item-thumbnail-04.webp",
+    "available_size": [
+      "300ML",
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Magic Lemon",
+    "flavour": "Lemon Flavour",
+    "price": 45,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 16,
+    "extra_discount_on_min": 100,
+    "image": "our-product-item-02.webp",
+    "thumbnail": "our-product-item-thumbnail-02.webp",
+    "available_size": [
+      "300ML",
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Miraculous Lemon",
+    "flavour": "Clove Flavour",
+    "price": 50,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 12,
+    "extra_discount_on_min": 150,
+    "image": "our-product-item-03.webp",
+    "thumbnail": "our-product-item-thumbnail-03.webp",
+    "available_size": [
+      "500ML",
+      "1L"
+    ]
+  },
+  {
+    "name": "Mountain Water",
+    "flavour": "Mineral Water",
+    "price": 35,
+    "details": {
+      "ingredients": "Calcium extracts, carbonates, and more",
+      "expiry": "4 months"
+    },
+    "extra_discount": 18,
+    "extra_discount_on_min": 100,
+    "image": "our-product-item-07.webp",
+    "thumbnail": "our-product-item-thumbnail-07.webp",
+    "available_size": [
+      "300ML",
+      "500ML",
+      "1L"
+    ]
+  }
+]

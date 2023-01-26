@@ -14,7 +14,7 @@ function Products() {
 
   useEffect(() => {
     const ourRequest = axios.CancelToken.source();
-    axios(process.env.REACT_APP_API_URL + "/product_list", {
+    axios("/json/products.json", {
       method: "GET",
       cancelToken: ourRequest.token,
     })
